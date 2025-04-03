@@ -1,8 +1,5 @@
 # BUSINESS TECHIES
 
-## Project Name :
-
-
 
 ### Project Description : 
 
