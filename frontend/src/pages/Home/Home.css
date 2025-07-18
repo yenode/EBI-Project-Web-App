@@ -1,0 +1,187 @@
+/* Home.css */
+
+/* Header styles */
+.main-header {
+  --background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo-icon {
+  margin-right: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.logo-location {
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.notification-btn {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 10px;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Search container */
+.search-container {
+  margin-bottom: 16px;
+}
+
+.custom-searchbar {
+  --background: #f5f5f5;
+  --border-radius: 12px;
+  --placeholder-color: #888;
+  --color: #333;
+  --icon-color: #666;
+  --box-shadow: none;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Categories grid */
+.categories-grid {
+  padding: 0;
+}
+
+.category-col {
+  padding: 8px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 12px 8px;
+  background-color: #fae5e5;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.category-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+.category-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.category-name {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+}
+
+/* Business cards */
+.card-container {
+  margin-bottom: 24px;
+}
+
+.business-card {
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.card-description {
+  color: #666;
+  font-size: 14px;
+}
+
+.card-rating {
+  font-weight: 600;
+  color: #FF9800;
+}
+
+.card-search-count {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Bottom tabs */
+.bottom-tabs {
+  --background: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+.tab-button {
+  --color: #888;
+  --color-checked: #FF5722;
+  --indicator-color: transparent;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  padding: 6px 0;
+}
+
+.tab-content ion-icon {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
