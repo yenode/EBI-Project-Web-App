@@ -5,13 +5,6 @@
 
 •	Search for businesses based on category or location. <br>
 •	Responsive UI that adapts to mobile, tablet, and desktop screens.<br>
-•	Interactive map integration for business locations.<br>
-
-### Members :<br>
-• Sourabh<br>
-• Kavya<br>
-• Dhannu<br>
-• Aditya<br>
 
 ### Roles :<br>
 • Available roles<br>
